@@ -1,0 +1,21 @@
+.lead {
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    padding-top: 56px;
+    width: calc(100% - 2 * 148px);
+    justify-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead {
+        width: calc(100% - 2 * 48px);
+        padding-top: 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead {
+        width: 100%;
+        padding-top: 48px;
+    }
+}
