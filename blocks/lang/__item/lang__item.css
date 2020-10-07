@@ -1,7 +1,0 @@
-.lang__item {
-    display: inline;
-}
-
-.lang__item:last-child {
-    padding-right: 0px;
-}
